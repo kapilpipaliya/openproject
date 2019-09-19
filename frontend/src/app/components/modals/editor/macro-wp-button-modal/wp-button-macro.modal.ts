@@ -68,7 +68,6 @@ export class WpButtonMacroModal extends OpModalComponent implements AfterViewIni
 
   constructor(readonly elementRef:ElementRef,
               @Inject(OpModalLocalsToken) public locals:OpModalLocalsMap,
-              protected wpCreate:WorkPackageCreateService,
               protected currentProject:CurrentProjectService,
               readonly workPackageDmService:WorkPackageDmService,
               readonly cdRef:ChangeDetectorRef,
